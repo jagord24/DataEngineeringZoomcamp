@@ -2,7 +2,6 @@
 .ipynb_checkpoints
 ny_taxi_postgres_data
 --user=root
-*.parquet
 services.yml
 *.csv
 *.gz

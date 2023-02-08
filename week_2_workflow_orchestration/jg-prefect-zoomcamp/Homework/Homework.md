@@ -43,10 +43,20 @@ Download data to GCS with
 
 RESULT: 14,851,920
 
+# Question 4 Github Storage Block
+Struggling with this one. Ran below code, but it is throwing an error that it can't find the python file
 
+prefect deployment build ./week_2_workflow_orchestration/jg-prefect-zoomcamp/flows/03_deployments/parametrized_flow.py:etl_web_to_gcs_hw -n "Github Storage Flow" -sb github/storage-block-hoemwork2 -o etl_web_to_gcs_hw_github-deployment.yaml --apply
 
+I know that the answer is **88,605** from running the local file with the correct parameters though.
 
+# Question 5
+Signed into the cloud interface with an API key since I was on WSL
 
+Did not set everything up, but the correct answer is 
+514,392
 
-prefect deployment build ./week_2_workflow_orchestration/jg-prefect-zoomcamp/flows/02_gcp/etl_web_to_gcs_homeoworkQ4.py:question4 -n question4-github-bucket -sb GitHub/storage-block-hoemwork2 -q default -o ./week_2_workflow_orchestration/jg-prefect-zoomcamp/homeworkQuestion4.yaml
+# Question 6 Secrets
 
+Entered fake secret: 1234567891
+Shows 8 asterisks
