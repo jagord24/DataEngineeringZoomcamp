@@ -42,3 +42,11 @@ Download data to GCS with
 `prefect deployment run el-parent-flow/"Homework 2 Question 3" -p "months=[2,3]" -p "color=yellow" -p "year=2019"`
 
 RESULT: 14,851,920
+
+
+
+
+
+
+prefect deployment build ./week_2_workflow_orchestration/jg-prefect-zoomcamp/flows/02_gcp/etl_web_to_gcs_homeoworkQ4.py:question4 -n question4-github-bucket -sb GitHub/storage-block-hoemwork2 -q default -o ./week_2_workflow_orchestration/jg-prefect-zoomcamp/homeworkQuestion4.yaml
+
