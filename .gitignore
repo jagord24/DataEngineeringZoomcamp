@@ -22,3 +22,8 @@ data_pgadmin
 **/ny_taxi_postgres_data/*
 serving_dir
 .ipynb_checkpoints/
+# Default .gitignore content added by dbt Cloud
+target/
+dbt_packages/
+logs/
+# end dbt Cloud content
