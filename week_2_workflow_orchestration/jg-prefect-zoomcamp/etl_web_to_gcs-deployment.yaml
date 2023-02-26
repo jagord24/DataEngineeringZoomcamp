@@ -1,0 +1,45 @@
+###
+### A complete description of a Prefect Deployment for flow 'etl-web-to-gcs'
+###
+name: de-hw-4
+description: The main ETL function
+version: 3584695ff5d80fa2b5467bda63bbde4a
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+tags: []
+parameters: {}
+schedule: null
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: etl-web-to-gcs
+manifest_path: null
+storage:
+  repository: https://github.com/jagord24/DataEngineeringZoomcamp.git
+  reference: null
+  access_token: '**********'
+  _block_document_id: cec2d147-825f-4f1e-89e4-0eb3bdb2fc8f
+  _block_document_name: storage-block-hoemwork2
+  _is_anonymous: false
+  block_type_slug: github
+  _block_type_slug: github
+path: ''
+entrypoint: flows/02_gcp/etl_web_to_gcs_homeoworkQ4.py:etl_web_to_gcs
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null
